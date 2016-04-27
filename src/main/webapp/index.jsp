@@ -4,14 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>first blood</title>
 </head>
 <body>
 
-<form action="TestServlet" method="post">
-<input type="text" name="message" />
-<input type="submit" />
-</form>
+<% response.setHeader("Refresh","0, /firstblood/xpl"); %>
 
 </body>
 </html>
